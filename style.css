@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#111;
+}
+
+.container{
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+}
+
+.top-badge{
+    background:#ff0033;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
+}
+
+.logo{
+    text-align:center;
+    font-size:34px;
+    font-weight:800;
+    color:#0057ff;
+}
+
+.logo span{
+    color:#ff0033;
+}
+
+.headline{
+    text-align:center;
+    font-size:34px;
+    font-weight:800;
+    margin-top:18px;
+    line-height:1.2;
+}
+
+.highlight{
+    color:#00a651;
+}
+
+.sub{
+    text-align:center;
+    color:#666;
+    margin-top:15px;
+    font-size:17px;
+    line-height:1.5;
+}
+
+.hero{
+    width:100%;
+    border-radius:15px;
+    margin-top:22px;
+}
+
+.steps{
+    margin-top:28px;
+}
+
+.step{
+    display:flex;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.step-number{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#0057ff;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+    margin-right:15px;
+    flex-shrink:0;
+}
+
+.step-text{
+    font-size:16px;
+    line-height:1.4;
+}
+
+.cta{
+    display:block;
+    width:100%;
+    text-align:center;
+    background:#00c853;
+    color:white;
+    text-decoration:none;
+    padding:18px;
+    border-radius:12px;
+    font-size:22px;
+    font-weight:bold;
+    margin-top:28px;
+    transition:0.3s;
+}
+
+.cta:hover{
+    background:#00b248;
+}
+
+.timer-box{
+    background:#fff5f5;
+    border:2px dashed #ff0033;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    margin-top:25px;
+}
+
+.timer-title{
+    color:#ff0033;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+#countdown{
+    font-size:28px;
+    font-weight:800;
+    color:#111;
+}
+
+.review-box{
+    margin-top:25px;
+}
+
+.review{
+    background:#f7f7f7;
+    padding:14px;
+    border-radius:12px;
+    margin-bottom:12px;
+}
+
+.review-name{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.footer{
+    text-align:center;
+    font-size:12px;
+    color:#777;
+    margin-top:25px;
+    line-height:1.5;
+}
+
+@media(max-width:520px){
+
+.headline{
+    font-size:28px;
+}
+
+.cta{
+    font-size:20px;
+}
+
+}
